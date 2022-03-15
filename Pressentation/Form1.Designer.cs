@@ -39,7 +39,6 @@ namespace Pressentation
             this.guardarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.guardarComoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.deshacerToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.rehacerToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,6 +59,7 @@ namespace Pressentation
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,7 +85,7 @@ namespace Pressentation
             this.guardarToolStripMenuItem1,
             this.guardarComoToolStripMenuItem1,
             this.toolStripSeparator7,
-            this.salirToolStripMenuItem1});
+            this.salirToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
@@ -134,13 +134,6 @@ namespace Pressentation
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
             this.toolStripSeparator7.Size = new System.Drawing.Size(203, 6);
-            // 
-            // salirToolStripMenuItem1
-            // 
-            this.salirToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("salirToolStripMenuItem1.Image")));
-            this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
-            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(206, 22);
-            this.salirToolStripMenuItem1.Text = "&Salir";
             // 
             // editarToolStripMenuItem1
             // 
@@ -234,7 +227,7 @@ namespace Pressentation
             // 
             this.colorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("colorToolStripMenuItem.Image")));
             this.colorToolStripMenuItem.Name = "colorToolStripMenuItem";
-            this.colorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colorToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.colorToolStripMenuItem.Text = "Color";
             this.colorToolStripMenuItem.Click += new System.EventHandler(this.colorToolStripMenuItem_Click);
             // 
@@ -258,13 +251,9 @@ namespace Pressentation
             // 
             this.acercaDeToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("acercaDeToolStripMenuItem1.Image")));
             this.acercaDeToolStripMenuItem1.Name = "acercaDeToolStripMenuItem1";
-            this.acercaDeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.acercaDeToolStripMenuItem1.Size = new System.Drawing.Size(126, 22);
             this.acercaDeToolStripMenuItem1.Text = "Acerca de";
             this.acercaDeToolStripMenuItem1.Click += new System.EventHandler(this.acercaDeToolStripMenuItem1_Click);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // richTextBox1
             // 
@@ -279,6 +268,14 @@ namespace Pressentation
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("salirToolStripMenuItem.Image")));
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.salirToolStripMenuItem.Text = "&Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -310,7 +307,6 @@ namespace Pressentation
         private System.Windows.Forms.ToolStripMenuItem guardarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem guardarComoToolStripMenuItem1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem deshacerToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem rehacerToolStripMenuItem1;
@@ -331,6 +327,7 @@ namespace Pressentation
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.FontDialog fontDialog1;
         private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }
 
